@@ -1,18 +1,18 @@
 from setuptools import setup
 
 setup(
-    name="micropython-phew",
-    version="0.0.2",
-    description="A small webserver and templating library specifically designed for MicroPython on the Pico W.",
+    name="cq_logging",
+    version="0.1.0",
+    description="Micropython logging, part of pimoroni logging",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     project_urls={
-        "GitHub": "https://github.com/pimoroni/phew"
+        "GitHub": "https://github.com/c-and-q/cq-logging"
     },
     author="Jonathan Williamson",
-    maintainer="Phil Howard",
-    maintainer_email="phil@pimoroni.com",
+    maintainer="Jacek Banaszczyk",
+    maintainer_email="jacek.banaszczyk@gmail.com",
     license="MIT",
     license_files="LICENSE",
-    packages=["phew"]
+    packages=["cq/logging"]
 )
