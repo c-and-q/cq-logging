@@ -4,6 +4,12 @@ Part of [micropython-phew](https://github.com/pimoroni/phew) module by Pimoroni.
 
 Extracted to follow single responsibility principle.
 
+## Copyrights
+
+Author of pimoroni:phew: Jonathan Williamson
+
+## ToC
+
 - [logging module](#logging-module)
     - [log(level, text)](#loglevel-text)
     - [debug(\*items)](#debugitems)
